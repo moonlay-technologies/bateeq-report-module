@@ -1,0 +1,30 @@
+{
+  "name": "bateeq-report-module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pinkgorilla/bateeq-report-module.git"
+  },
+  "author": "Tris Setiawan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pinkgorilla/bateeq-report-module/issues"
+  },
+  "homepage": "https://github.com/pinkgorilla/bateeq-report-module#readme",
+  "dependencies": {
+    "sql-driver": "git+https://github.com/moonlay/sql-driver.git"
+  },
+  "devDependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "mocha": "^2.5.3",
+    "morgan": "^1.7.0",
+    "should": "^9.0.0",
+    "supertest": "^1.2.0"
+  }
+}
